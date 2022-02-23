@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+header,
+footer {
+    color: #F7FFF7;
+    padding: 0 9%;
+    background-color: #140F2D;
+}
+
+body {
+    background-color: #ffe66d;
+}
+
+nav {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0
+}
+
+li:hover {
+    color: #ffe66d;
+}
+
+.links {
+    display: flex;
+    gap: 75px;
+}
