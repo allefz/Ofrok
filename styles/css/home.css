@@ -25,6 +25,10 @@ body {
     background-position: center;
 }
 
+h1 {
+    font-size: 45px;
+}
+
 nav {
     padding: 10px;
     justify-content: space-between;
