@@ -17,10 +17,11 @@ body {
 }
 
 .banner {
+    color: #3581B8;
     background-image: url(../../images/thraxbanner.jpg);
     padding: 0 9%;
     height: 320px;
-    background-size: 100% 480px;
+    background-size: cover;
     background-position: center;
 }
 
