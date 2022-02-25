@@ -1,0 +1,57 @@
+@import "./commom.scss";
+
+body {
+    background-color: #ffe66d;
+
+    header,
+    footer {
+        color: #f7fff7;
+        padding: 0 9%;
+        background-color: #140f2d;
+
+        ul {
+            li:hover {
+                color: #ffe66d;
+            }
+        }
+    }
+
+    header {
+        nav {
+            padding: 10px;
+            justify-content: space-between;
+            display: flex;
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .banner {
+        color: #3581b8;
+        background-image: url(../../images/thraxbanner.jpg);
+        padding: 0 9%;
+        height: 320px;
+        background-size: cover;
+        background-position: center;
+        
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .links {
+        display: flex;
+        gap: 75px;
+    }
+
+    footer {
+        padding: 40px 9%;
+    }
+}

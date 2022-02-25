@@ -1,54 +1,41 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-}
-
-header,
-footer {
-    color: #F7FFF7;
-    padding: 0 9%;
-    background-color: #140F2D;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none; }
 
 body {
-    background-color: #ffe66d;
-}
-
-.banner {
-    color: #3581B8;
+  background-color: #ffe66d; }
+  body header,
+  body footer {
+    color: #f7fff7;
+    padding: 0 9%;
+    background-color: #140f2d; }
+    body header ul li:hover,
+    body footer ul li:hover {
+      color: #ffe66d; }
+  body header nav {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex; }
+    body header nav ul {
+      margin: 0;
+      padding: 0; }
+      body header nav ul li {
+        padding: 0; }
+  body .banner {
+    color: #3581b8;
     background-image: url(../../images/thraxbanner.jpg);
     padding: 0 9%;
     height: 320px;
     background-size: cover;
-    background-position: center;
-}
-
-h1 {
-    font-size: 45px;
-}
-
-nav {
-    padding: 10px;
-    justify-content: space-between;
+    background-position: center; }
+    body .banner h1 {
+      font-size: 45px; }
+  body .links {
     display: flex;
-}
+    gap: 75px; }
+  body footer {
+    padding: 40px 9%; }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    padding: 0
-}
-
-li:hover {
-    color: #ffe66d;
-}
-
-.links {
-    display: flex;
-    gap: 75px;
-}
+/*# sourceMappingURL=home.css.map */
