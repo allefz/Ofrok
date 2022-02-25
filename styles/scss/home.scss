@@ -18,9 +18,15 @@ body {
 
     header {
         nav {
-            padding: 10px;
+            padding: 25px;
             justify-content: space-between;
             display: flex;
+
+            .links {
+                display: flex;
+                gap: 75px;
+                align-items: center;
+            }
 
             ul {
                 margin: 0;
@@ -28,6 +34,21 @@ body {
 
                 li {
                     padding: 0;
+                    cursor: pointer;
+
+                    &.night {
+                        font-size: 24px;
+
+                        &::before {
+                            content: "☾";
+                        }
+
+                        &.active {
+                            &::before {
+                                content: "☀";
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -40,15 +61,10 @@ body {
         height: 320px;
         background-size: cover;
         background-position: center;
-        
+
         h1 {
             font-size: 45px;
         }
-    }
-
-    .links {
-        display: flex;
-        gap: 75px;
     }
 
     footer {
