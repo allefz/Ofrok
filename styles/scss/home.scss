@@ -59,6 +59,18 @@ body {
             font-size: 45px;
         }
     }
+
+    .images-cars {
+        margin-top: 40px;
+
+        .car-content {
+            width: 100%;
+            
+            h3, p {
+                text-align: center;
+            }
+        }
+    }
     
     footer {
         padding: 40px 9%;
