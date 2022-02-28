@@ -5,12 +5,14 @@
   padding: 0;
   list-style: none; }
 
+.container {
+  padding: 0 9%; }
+
 body {
   background-color: #ffe66d; }
   body header,
   body footer {
     color: #f7fff7;
-    padding: 0 9%;
     background-color: #140f2d; }
     body header ul li:hover,
     body footer ul li:hover {
@@ -38,7 +40,6 @@ body {
   body .banner {
     color: #3581b8;
     background-image: url(../../images/thraxbanner.jpg);
-    padding: 0 9%;
     height: 320px;
     background-size: cover;
     background-position: center; }

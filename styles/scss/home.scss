@@ -1,11 +1,12 @@
 @import "./commom.scss";
 body {
     background-color: #ffe66d;
+
     header,
     footer {
         color: #f7fff7;
-        padding: 0 9%;
         background-color: #140f2d;
+
         ul {
             li:hover {
                 color: #ffe66d;
@@ -17,11 +18,14 @@ body {
             padding: 25px;
             justify-content: space-between;
             display: flex;
+            align-items: center;
+
             .links {
                 display: flex;
                 gap: 75px;
                 align-items: center;
             }
+            
             ul {
                 margin: 0;
                 padding: 0;
@@ -43,17 +47,19 @@ body {
             }
         }
     }
+
     .banner {
         color: #3581b8;
         background-image: url(../../images/thraxbanner.jpg);
-        padding: 0 9%;
         height: 320px;
         background-size: cover;
         background-position: center;
+
         h1 {
             font-size: 45px;
         }
     }
+    
     footer {
         padding: 40px 9%;
     }
