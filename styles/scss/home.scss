@@ -1,48 +1,38 @@
 @import "./commom.scss";
-
 body {
     background-color: #ffe66d;
-
     header,
     footer {
         color: #f7fff7;
         padding: 0 9%;
         background-color: #140f2d;
-
         ul {
             li:hover {
                 color: #ffe66d;
             }
         }
     }
-
     header {
         nav {
             padding: 25px;
             justify-content: space-between;
             display: flex;
-
             .links {
                 display: flex;
                 gap: 75px;
                 align-items: center;
             }
-
             ul {
                 margin: 0;
                 padding: 0;
-
                 li {
                     padding: 0;
                     cursor: pointer;
-
                     &.night {
                         font-size: 24px;
-
                         &::before {
                             content: "☾";
                         }
-
                         &.active {
                             &::before {
                                 content: "☀";
@@ -53,7 +43,6 @@ body {
             }
         }
     }
-
     .banner {
         color: #3581b8;
         background-image: url(../../images/thraxbanner.jpg);
@@ -61,12 +50,10 @@ body {
         height: 320px;
         background-size: cover;
         background-position: center;
-
         h1 {
             font-size: 45px;
         }
     }
-
     footer {
         padding: 40px 9%;
     }
