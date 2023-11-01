@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none; }
+
+.container {
+  padding: 0 9%; }
+
+body {
+  background-color: #ffe66d; }
+  body header,
+  body footer {
+    color: #f7fff7;
+    background-color: #140f2d; }
+    body header ul li:hover,
+    body footer ul li:hover {
+      color: #ffe66d; }
+  body header nav {
+    padding: 25px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center; }
+    body header nav .links {
+      display: flex;
+      gap: 75px;
+      align-items: center; }
+    body header nav ul {
+      margin: 0;
+      padding: 0; }
+      body header nav ul li {
+        padding: 0;
+        cursor: pointer; }
+        body header nav ul li.night {
+          font-size: 24px; }
+          body header nav ul li.night::before {
+            content: "☾"; }
+          body header nav ul li.night.active::before {
+            content: "☀"; }
+  body .banner {
+    color: #3581b8;
+    background-image: url(../../images/thraxbanner.jpg);
+    height: 320px;
+    background-size: cover;
+    background-position: center; }
+    body .banner h1 {
+      font-size: 45px; }
+  body .images-cars {
+    margin-top: 40px; }
+    body .images-cars .car-content {
+      width: 100%; }
+      body .images-cars .car-content h3, body .images-cars .car-content p {
+        text-align: center; }
+  body footer {
+    padding: 40px 9%; }
+
+/*# sourceMappingURL=home.css.map */
